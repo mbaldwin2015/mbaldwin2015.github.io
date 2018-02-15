@@ -7,9 +7,33 @@
 }
 
 .shards-landing-page--1 .welcome {
-	background: url(../images/main/splash.jpg) no-repeat center center fixed;
-	background-size:cover;
+		background: url(../images/main/splash.jpg) no-repeat center center fixed;
+		background-size:cover;
 }
+
+@media (min-width: 400px) {
+	.shards-landing-page--1 .welcome {
+		background: url(../images/main/splash.jpg) no-repeat center center fixed;
+		background-size:cover;
+		background-position: -10rem 0;
+	}
+}
+
+@media (min-width: 500px) {
+	.shards-landing-page--1 .welcome {
+		background: url(../images/main/splash.jpg) no-repeat center center fixed;
+		background-size:cover;
+		background-position: -10rem 0;
+	}
+}
+
+@media (min-width: 600px) {
+	.shards-landing-page--1 .welcome {
+		background: url(../images/main/splash.jpg) no-repeat center center fixed;
+		background-size:cover;
+	}
+}
+
 
 .text-primary {
     color: #838383!important;
