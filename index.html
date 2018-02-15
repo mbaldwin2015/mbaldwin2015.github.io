@@ -1,62 +1,48 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Michael Baldwin - A Full Stack Web Developer</title>
-        <meta name="description" content="A portfolio page for showcasing the skills and projects of Michael Baldwin, a full stack web developer.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Michael Baldwin - A Full Stack Web Developer</title>
+      <meta name="description" content="A portfolio page for showcasing the skills and projects of Michael Baldwin, a full stack web developer.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="images/main/favicon.png">
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="images/main/favicon.png">
 
-        <!-- CSS Dependencies -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/shards.min.css?version=2.0.0">
-        <link rel="stylesheet" href="css/shards-extras.min.css?version=2.0.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <!-- CSS Dependencies -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/shards.min.css?version=2.0.0">
+      <link rel="stylesheet" href="css/shards-extras.min.css?version=2.0.0">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     </head>
     <body class="shards-landing-page--1">
       <!-- Welcome Section -->
       <section class="welcome d-flex justify-content-center flex-column">
         <div class="container">
           <!-- Navigation -->
-          <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <nav class="navbar navbar-expand navbar-dark pt-4 px-0">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown"> -->
+              <!-- Kill The Hamburger Menu: https://techcrunch.com/2014/05/24/before-the-hamburger-button-kills-you/ -->
+              <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item mr-sm-4">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item ml-sm-4 mr-sm-4">
                   <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ml-sm-4 mr-sm-4">
                   <a class="nav-link" href="#stack">Skills</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item ml-sm-4">
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
-
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/mbaldwin2015" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                </li> LinkedIn may come later -->
-                <li class="nav-item">
-                  <a class="nav-link" href="https://docs.google.com/document/d/12uMafMv13EEG-lUukmvs0Nq7COMxL0MhNPIoQIBDFZY/edit?usp=sharing" target="_blank"><i class="far fa-file-alt"></i> Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mailto:mbaldwin08@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                </li>
-              </ul>
-            </div>
+            <!-- </div> -->
           </nav>
           <!-- / Navigation -->
         </div>
@@ -65,8 +51,25 @@
         <div class="inner-wrapper mt-auto mb-auto container">
           <div class="row">
             <div class="col-md-12 text-center main-header">
-                <h1 class="welcome-heading display-4 text-white">Michael Baldwin</h1>
-                <h4 class="text-white">Full Stack Web Developer</h4>
+              <h1 class="welcome-heading display-4 text-white">Michael Baldwin</h1>
+              <h4 class="text-white mb-0">Full Stack Web Developer</h4>
+              <!-- External Links -->
+              <nav class="navbar navbar-expand navbar-dark py-0">
+                <ul class="navbar-nav ml-auto mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/mbaldwin2015" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                  </li> LinkedIn may come later -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://docs.google.com/document/d/12uMafMv13EEG-lUukmvs0Nq7COMxL0MhNPIoQIBDFZY/edit?usp=sharing" target="_blank"><i class="far fa-file-alt"></i> Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mailto:mbaldwin08@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
@@ -74,8 +77,33 @@
       </section>
       <!-- / Welcome Section -->
 
+      <!-- About Section -->
+      <section id="about" class="testimonials section py-4">
+          <h3 class="section-title text-center m-5">About Me</h3>
+          <div class="container py-5">
+            <div class="row">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 text-center mb-4">
+                    <img class="img-responsive with-shadows border img-thumbnail" alt="Michael Baldwin" src="images/common/portrait.png" />
+                  </div>
+                  <div class="col-md-8 col-sm-12">
+                    <p class="card-text">Hi!  My name's Michael Baldwin, I'm a Full Stack Web Developer and recent Computer Science graduate of Arizona State University.  Ever since I was young I had an interest in programming as well as creating my own things.  I started by making small flash games and flash websites, playing around with source code, and creating my own tools for video games.  Naturally, I decided to major in Computer Science and make programming a career since it is something that I truly enjoy!</p>
+
+                    <p class="card-text">I value a broad skill set and I am deeply interested in learning new technologies so that I can become an overall more well rounded programmer.  I currently feel like I am a jack of all trades when it comes to Web Development but I am open to specializing and becoming a master of something specific - depends on what the future holds for me, so I am eager to learn new skills on the job or off the job whenever possible!</p>
+
+                    <p class="card-text">I'm currently looking for work as either a freelancer or as an employee of a company in the Phoenix, Arizona Metropolitan Area.  So if you need some work done or you are a prospective employer interested in interviewing me, please use <a href="#contact">the contact form</a> below or you can find my contact information <a href="https://docs.google.com/document/d/12uMafMv13EEG-lUukmvs0Nq7COMxL0MhNPIoQIBDFZY/edit?usp=sharing" target="_blank">in my resume</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center"><span><a class="return" href="#"><div class="rotate">&rsh;</div> return to top</a></span></div>
+      </section>
+      <!-- / About Section -->
+
       <!-- Projects Section -->
-      <section id="projects" class="our-services section py-4">
+      <section id="projects" class="our-services section-invert py-4">
         <h3 class="section-title text-center my-5">Projects</h3>
         <div class="container">
           <div class="py-4">
@@ -163,12 +191,13 @@
               </div>
             </div>
           </div>
+          <div class="container text-center"><span><a class="return" href="#"><div class="rotate">&rsh;</div> return to top</a></span></div>
         </div>
       </section>
       <!-- / Projects Section -->
 
       <!-- Stack Section -->
-      <section id="stack" class="blog section section-invert py-4">
+      <section id="stack" class="blog section section py-4">
         <h3 class="section-title text-center m-5">Skills</h3>
           <div class="features py-4 mb-4">
           <div class="container">
@@ -361,32 +390,9 @@
             </div>
           </div>
         </div>
+        <div class="container text-center"><span><a class="return" href="#"><div class="rotate">&rsh;</div> return to top</a></span></div>
       </section>
       <!-- / Stack Section -->
-
-      <!-- About Section -->
-      <section id="about" class="testimonials section py-4">
-          <h3 class="section-title text-center m-5">About</h3>
-          <div class="container py-5">
-            <div class="row">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-4 col-sm-12 text-center mb-4">
-                    <img class="img-responsive with-shadows border img-thumbnail" alt="Michael Baldwin" src="images/common/portrait.png" />
-                  </div>
-                  <div class="col-md-8 col-sm-12">
-                    <p class="card-text">Hi!  My name's Michael Baldwin, I'm a Full Stack Web Developer and recent Computer Science graduate of Arizona State University.  Ever since I was young I had an interest in programming as well as creating my own things.  I started by making small flash games and flash websites, playing around with source code, and creating my own tools for video games.  Naturally, I decided to major in Computer Science and make programming a career since it is something that I truly enjoy!</p>
-
-                    <p class="card-text">I value a broad skill set and I am deeply interested in learning new technologies so that I can become an overall more well rounded programmer.  I currently feel like I am a jack of all trades when it comes to Web Development but I am open to specializing and becoming a master of something specific - depends on what the future holds for me, so I am eager to learn new skills on the job or off the job whenever possible!</p>
-
-                    <p class="card-text">I'm currently looking for work as either a freelancer or as an employee of a company in the Phoenix, Arizona Metropolitan Area.  So if you need some work done or you are a prospective employer interested in interviewing me, please use the contact form below or you can find my contact information <a href="https://docs.google.com/document/d/12uMafMv13EEG-lUukmvs0Nq7COMxL0MhNPIoQIBDFZY/edit?usp=sharing" target="_blank">in my resume</a>.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-      <!-- / About Section -->
 
       <!-- Contact Section -->
       <section id="contact" class="contact section-invert py-4">
@@ -429,34 +435,26 @@
             </div>
           </div>
         </div>
+        <div class="container text-center"><span><a class="return" href="#"><div class="rotate">&rsh;</div> return to top</a></span></div>
       </section>
       <!-- / Contact Section -->
 
       <!-- Footer Section -->
       <footer>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
           <div class="container">
             <a class="navbar-brand" href="#">Michael Baldwin</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#stack">Skills</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
               </ul>
-            </div>
-
           </div>
         </nav>
       </footer>
