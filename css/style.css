@@ -1,0 +1,85 @@
+.main-header {
+	margin-bottom: 40px;
+}
+
+.shards-landing-page--1 .welcome:before, .shards-landing-page--1 .section-title:after {
+	background: #393939;
+}
+
+.shards-landing-page--1 .welcome {
+	background: url(../images/main/splash.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+
+.text-primary {
+    color: #838383!important;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #838383;
+    background-color: #838383;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+	background-color: #fff;
+	border-color: #838383;
+	color: #000;
+	box-shadow: 0 5px 15px rgba(0,0,0,.05), 0 4px 10px rgba(173,173,173,.25);
+}
+
+.btn-primary:active, .btn-primary:focus {
+	background-color: #F7F7F7 !important;
+	border-color: #838383 !important;
+	color: #000 !important;
+}
+
+.shards-landing-page--1 .section-invert.section-invert {
+	background: #F7F7F7 !important;
+}
+
+.card-img-top {
+	max-width: 330px;
+	max-height: 207px;
+}
+
+.devicon {
+	font-size: 7rem;
+}
+
+.devicon-span {
+	max-width: 7rem;
+}
+
+svg {
+	max-width: 7rem;
+}
+
+.fixed {
+	position: relative;
+	bottom: 45px;
+}
+
+@media screen and (max-device-width: 480px) {
+  .fixed {
+  	position: inherit;
+  	bottom: 0px;
+  }
+}
+
+.card-header {
+	background-color: #DFDFDF;
+}
+
+h5 .card-title {
+	margin-bottom: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+#projects > div > div > div > div > div:nth-child(n) > div {
+	/* project cards - for setting the height later on */
+}

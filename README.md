@@ -1,0 +1,1 @@
+A static website that I made to showcase my portfolio
