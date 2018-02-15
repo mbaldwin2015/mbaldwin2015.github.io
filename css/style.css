@@ -11,7 +11,7 @@
 		background-size:cover;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
 	.shards-landing-page--1 .welcome {
 		background-position: -12.5rem 0;
 	}
