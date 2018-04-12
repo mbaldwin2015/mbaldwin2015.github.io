@@ -136,3 +136,15 @@ h5 .card-title {
 	transition: 0.25s;
 }
 
+.stack {
+    background-color: transparent;
+    color: #2A3A3F;
+    border: 2px solid #FDCD3B;
+    border-radius: 15px;
+    display: inline-block;
+    padding: .33333rem .5rem;
+    font-size: .8rem;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: default;
+}
